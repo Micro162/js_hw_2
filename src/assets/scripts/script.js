@@ -181,8 +181,8 @@ const desert = [
   }
 ];
 
-const fallbackImage = "https://via.placeholder.com/300x160?text=No+Photo";
-const container = document.getElementById("dessert-list");
+const fallbackImage = "../images/notimage.png";
+const container = document.getElementById("dessertList");
 
 for (let i = 0; i < desert.length; i++) {
   const item = desert[i];
